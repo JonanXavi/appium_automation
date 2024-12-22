@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="test">
+    <test name="Emulator">
+        <listeners>
+            <listener class-name = "com.qa.listeners.TestListener"/>
+            <listener class-name = "com.qa.listeners.RetryTests"/>
+        </listeners>
+        <parameter name="emulator" value="true"/>
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="Pixel_7a"/>
+        <parameter name="systemPort" value="10001"/>
+        <parameter name="chromeDriverPort" value="11001"/>
+        <packages>
+            <package name="com.qa.tests"/>
+        </packages>
+    </test>
+    <!--<test name="Galaxy_A24">
+        <listeners>
+            <listener class-name = "com.qa.listeners.TestListener"/>
+        </listeners>
+        <parameter name="emulator" value="false"/>
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value="ANDROID007"/>
+        <parameter name="deviceName" value="Samsung_A24"/>
+        <parameter name="systemPort" value="10000"/>
+        <parameter name="chromeDriverPort" value="11000"/>
+        <packages>
+            <package name="com.qa.tests"/>
+        </packages>
+    </test>
+    <test name="iOS">
+        <listeners>
+            <listener class-name = "com.qa.listeners.TestListener"/>
+        </listeners>
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value="IOS007"/>
+        <parameter name="deviceName" value="iPhoneQA"/>
+        <parameter name="wdaLocalPort" value="10001"/>
+        <parameter name="webkitDebugProxyPort" value="11001"/>
+        <packages>
+            <package name="com.qa.tests"/>
+        </packages>
+    </test>-->
+</suite>

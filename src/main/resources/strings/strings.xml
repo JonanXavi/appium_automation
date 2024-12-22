@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resouces>
+    <!-- Error Text -->
+    <string name = "err_username">User is required</string>
+    <string name = "err_password">Password is required</string>
+    <string name = "err_credentials">User and password do not match any user in this service.</string>
+    <string name = "err_locked">Sorry, this user has been locked out.</string>
+
+    <!-- Titles -->
+    <string name = "product_title">PRODUCTS</string>
+</resouces>
