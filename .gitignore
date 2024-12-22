@@ -16,6 +16,7 @@ videos/
 *.iws
 *.iml
 *.ipr
+*.html
 
 ### Eclipse ###
 .apt_generated
