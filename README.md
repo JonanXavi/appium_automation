@@ -65,7 +65,7 @@ Example of `testng.xml` android device:
 > Test execution requires either an active emulator or a physical device connected to the computer with debugging mode enabled.
 
 ### From an IDE
-Right-click on the testng.xml file and select Run.
+- Right-click on the testng.xml file and select Run.
 
 ### From the command line
 ```bash
